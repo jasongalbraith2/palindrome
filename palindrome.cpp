@@ -62,6 +62,8 @@ int main()
     if (matched and final_string[i] != flipped_string[i]) { matched = false; }
   }
 
+
+  // Finally, print out the result.	
   if (matched) {
     std::cout << "\nPalindrome.";
   }
